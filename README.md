@@ -1,6 +1,11 @@
 ## Setup
 
 ```bash
+git clone https://github.com/AcExPratish/artificial-intelligence-coursework.git
+cd artificial-intelligence-coursework
+git lfs install
+git lfs pull
+
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
